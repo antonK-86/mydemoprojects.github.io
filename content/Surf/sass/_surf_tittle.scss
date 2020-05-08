@@ -1,0 +1,41 @@
+.surf_tittle {
+    position: relative;
+
+    & .logo_tittle {
+        font-weight: 800;
+        font-size: 200px;
+        text-transform: uppercase;
+        opacity: 0.02;
+        position: absolute;
+        left: -3.75%;
+    }
+
+    & h1 {
+        margin-left: 17.5%;
+        position: relative;
+        display: inline;
+
+        &::after {
+            position: absolute;
+            left: 100px;
+            content: "";
+            width: 87px;
+            height: 1px;
+            background: #4AF6CD;
+        }
+    }
+
+    & .location {
+        position: absolute;
+        bottom: -180px;
+        right: 80px;
+        text-transform: uppercase;
+
+        & .line_span{
+            font-size: 22px;
+            letter-spacing: 7.33px;
+        }
+
+
+    }
+}

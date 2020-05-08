@@ -1,0 +1,25 @@
+.section__title {
+    width: 100%;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    & h2 {
+        font-size: 35px;
+        font-family: $droid;
+        color: rgb(34, 34, 34);
+        line-height: 1.2;
+    }
+
+    & p {
+        font-size: 12px;
+        font-family: $muli;
+        color: rgb(145, 145, 145);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,113 @@
+.header_content {
+    width: 72%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    & .header_map {
+        height: 50%;
+    }
+
+    & .header_slide {
+        height: 50%;
+        padding: 70px 70px 20px;
+        text-align: right;
+        text-transform: uppercase;   
+        
+        & .slide_title .arows_bottom {
+            display: inline-block;
+            cursor: pointer;
+            transition: transform 0.2s linear;
+
+            &:hover {
+                transform: translateX(5px);
+            }
+        }
+    }
+
+    & .header_slide {
+
+
+        & .title_slide {
+            display: none;
+        }
+
+        & .title_slide.active_title  {
+            display: block;
+        }
+            
+
+        & .line_span {
+
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            & .line {
+                display: inline-block;
+                width: 70px;
+                height: 1px;
+                background-color: $white;
+                opacity: 0.5;
+                text-align: right;
+            }
+
+            & span {
+                margin-left: 30px;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 145%;
+                letter-spacing: 7.33333px;
+                opacity: 0.5;
+            }
+        }
+
+        & h1 {
+            font-weight: 800;
+            font-size: 80px;
+            line-height: 86px;
+        }
+
+        & h3 {
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 86px;
+        }
+    }
+
+
+    & .slide_link {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        
+        & .slide_link_item { 
+            width: 22%;
+            text-align: right;
+            padding-top: 10px;
+            border-top: 3px solid white;
+            display: flex;
+            justify-content: space-between;
+            cursor: pointer;
+            
+
+            & span {
+                width: 50%;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 119%;
+                opacity: 0.5;
+                text-transform: none;
+            }
+        }
+        
+        & .slide_link_item.active_shore  {
+            border-top-color: #4AF6CD;
+        }
+    }
+
+    
+}
+
+    
+    

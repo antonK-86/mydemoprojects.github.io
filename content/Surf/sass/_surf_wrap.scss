@@ -1,0 +1,12 @@
+.surf_wrap {
+    width: 100%;
+    margin-top: 160px;
+    position: relative;
+
+    & .poi {
+        position: absolute;
+        right: 0;
+        top: 20px;
+        opacity: 0.02;
+    }
+}

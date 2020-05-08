@@ -1,0 +1,14 @@
+//font
+@font-face {
+    font-family: 'Droid Serif Regular';
+    src: url('DroidSerif.eot');
+    src: url('DroidSerif.eot?#iefix') format('embedded-opentype'),
+    url('DroidSerif.woff') format('woff'),
+    url('DroidSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$droid: 'Droid Serif Regular';
+$muli: 'Muli', sans-serif;
+$lora: 'Lora', serif;

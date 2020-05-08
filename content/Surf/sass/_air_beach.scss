@@ -1,0 +1,61 @@
+.air_beach {
+    display: inline-block;
+    width: 1110px;
+    height: 780px;
+    margin-top: 90px;
+    background-image: url(../images/TravelImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    box-shadow: inset -50px -1px 30px 80px rgba(0,0,0,0.9);
+
+    & .air_beach_tittle {
+        position: absolute;
+        bottom: 0;
+        left: 130px;
+    }
+
+    & .line_span {
+        display: inline-block;
+        font-size: 22px;
+        letter-spacing: 7.33px;
+        text-transform: uppercase;
+        
+    }
+
+    & .line {
+        display: inline-block;
+        width: 70px;
+        height: 1px;
+        background-color: #ffffff;
+        opacity: 0.5;
+        margin-bottom: 6px; 
+        margin-left: 10px;
+    }
+
+    & .land {
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        font-weight: 800;
+        font-size: 40px;
+        margin-top: 10px;
+        text-align: center;
+        text-transform: uppercase;
+
+        & .region {
+            margin-right: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    & .bitmap {
+        position: absolute;
+        bottom: -70px;
+        right: -200px;
+        transform: rotate(5deg);
+    }
+}

@@ -1,0 +1,39 @@
+.info-line {
+    width: 100%;
+    height: 185px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/line1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    & .text__info {
+        font-size: 6rem;
+        font-family: $droid;
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+    }
+}
+
+.info-line_two {
+    background-image: url(../images/line2.jpg);
+    display: block;
+
+    & .line-wrap {
+        max-width: 1140px;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & img {
+            display: block;
+        }
+    }
+}
+
+
+  

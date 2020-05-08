@@ -1,0 +1,167 @@
+.world-map {
+    position: relative;
+    max-width: 1310px;
+    padding: 65px;
+
+    & .surf_map {
+            max-width: 1200px;
+            height: 635px;
+            background: url(../images/World_Map.svg) center no-repeat;
+            background-size: cover; 
+            position: relative;
+            
+        & .place_on_map {
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+            border-radius: 24px;
+            background-color: #4AF6CD;
+            box-shadow: 0px 0px 35px rgba(74, 246, 205, 0.837777);
+            cursor: pointer;
+            position: relative;
+
+            & .info_beach {
+                display: none;
+                width: 280px;
+                height: 215px;
+                background: #0F1010;
+                mix-blend-mode: normal;
+                opacity: 0.7;
+                border-radius: 6px;
+                position: absolute;
+                top: -230px;
+                left: -40px;
+                z-index: 1000;
+                cursor: auto;
+                padding: 25px;
+
+                & h5 {
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 26px;
+                    text-transform: uppercase;
+                    z-index: 2000;
+                    opacity: 1;
+
+                    &::after {
+                        content: '';
+                        display: block;
+                        margin-top: 10px;
+                        width: 80px;
+                        height: 1px;
+                        background-color: #4AF6CD;
+                    }
+                }
+
+                & p {
+                    margin-top: 10px;
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+
+                & .inform {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 30px;
+
+                    & .inform_item {
+                        width: 48px;
+                        text-align: center;
+                        
+
+                        & span {
+                            font-weight: 800;
+                            font-size: 16px;
+                            line-height: 23px;
+                        }
+
+                        & p {
+                            font-size: 10px;
+                            line-height: 12px;
+                            text-transform: uppercase;
+                            margin-top: 0px;
+                        }
+                    }
+                }
+            }
+
+
+            &:hover {
+                width: 24px;
+                height: 34px;
+                display: inline-block;
+                border-radius: 0px;
+                background: url(../images/surf/select_place.svg) center;
+            }
+
+            &:hover .info_beach {
+                display:block;
+            }
+        }  
+
+
+
+        & .item_place_1 {
+            position: absolute;
+            top: 335px;
+            left: -15px;
+        }
+
+        & .item_place_2 {
+            position: absolute;
+            top: 290px;
+            left: 125px;
+        }
+
+        & .item_place_3 {
+            position: absolute;
+            top: 320px;
+            left: 325px;
+        }
+
+        & .item_place_4 {
+            position: absolute;
+            bottom: 110px;
+            left: 400px;
+        }
+
+        & .item_place_5 {
+            position: absolute;
+            top: 215px;
+            left: 520px;
+        }
+
+        & .item_place_6 {
+            position: absolute;
+            bottom: 55px;
+            left: 625px;
+        }
+
+        & .item_place_7 {
+            position: absolute;
+            bottom: 230px;
+            right: 370px;
+        }
+
+        & .item_place_8 {
+            position: absolute;
+            bottom: 110px;
+            right: 80px;
+        }
+
+    }
+
+    & .coords {
+        position: absolute;
+        right: -65px;
+        top: 50%;
+        height: 25px;
+        font-size: 18px;
+        text-transform: uppercase;
+        opacity: 0.5;
+        transform: rotate(-90deg);
+        
+    }
+}
+
+

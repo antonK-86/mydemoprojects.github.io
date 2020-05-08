@@ -1,0 +1,39 @@
+.header {
+    //min-height: 700px;
+    background-image: url(../images/girlhead.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    min-height: 700px;
+    
+    & .header-content {
+        width: 60%;
+    }
+
+    & h1 {
+        font-family: $lora;
+        font-size: 80px;
+        color: rgb(34, 34, 34);
+        line-height: 1.25;
+        //text-transform: uppercase;
+    }
+
+    & p {
+        font-size: 28px;
+        font-family: $muli;
+        font-weight: 300;
+        color: rgb(82, 87, 93);
+        line-height: 1.667;
+    }
+
+    & .btn_shop {
+        margin-top: 40px;
+    }
+
+}
+
+

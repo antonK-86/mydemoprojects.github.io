@@ -1,0 +1,81 @@
+.main_block {
+    width: 100%;
+    position: relative;
+
+    & .img{
+        max-width: 1100px;
+        min-height: 770px;
+        background-image: url(../images/SleepImage.jpg);
+        background-position: left;
+        background-repeat: no-repeat;
+        -webkit-box-shadow: inset -16px 0px 17px 14px rgba(0,0,0,0.7); 
+        box-shadow: inset 0px 0px 80px 114px rgba(23,25,25,1); 
+
+        & .rating {
+            text-transform: uppercase;
+            z-index: 100;
+            position: absolute;
+            bottom: 20px;
+            left: 60px;
+           
+            & .top_part{
+                font-size: 22px;
+                letter-spacing: 7.33px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+        
+                & .line {
+                    display: inline-block;
+                    width: 70px;
+                    height: 1px;
+                    background-color: $white;
+                    opacity: 0.5;
+                    text-align: right;
+                } 
+                
+                & span {
+                    margin-right: 20px;
+                    opacity: 0.5;
+                }
+            }
+
+            & .index {
+                display: flex;
+                justify-content: flex-end;
+                font-weight: 800;
+                font-size: 40px;
+                margin-top: 10px;
+                text-align: center;
+        
+                & .value {
+                    margin-right: 10px;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+
+    & .img.air {
+        background-image: url(../images/TravelImage.jpg);
+        border-radius: 85px;
+    }
+
+    & .hammock {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    & .bitmap {
+        position: absolute;
+        bottom: -110px;
+        right: 0;
+    }
+
+    & .flower_min {
+        position: absolute;
+        bottom: -110px;
+        right: 0; 
+    }
+}

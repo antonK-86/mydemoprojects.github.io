@@ -1,0 +1,32 @@
+.prdct-info{
+    width: 100%;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0;
+
+    & .prdct__name {
+        font-size: 1.8rem;
+        font-family: $droid;
+        color: rgb(34, 34, 34);
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    & .prdct__prise {
+        font-size: 1.3rem;
+        font-family: $muli;
+        color: rgb(131, 139, 143);
+        margin: 10px auto;
+        line-height: 1.2;
+        text-align: center;
+
+        & .old_price {
+            text-decoration: line-through;
+            margin-right: 5px;
+        }
+
+        & .new_price {
+            color:#ff3366;
+        }
+    }
+}

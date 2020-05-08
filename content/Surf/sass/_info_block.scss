@@ -1,0 +1,82 @@
+.info_block {
+    width: 100%;
+    margin: 90px auto 0;
+    position: relative;
+    
+    & .inform {
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        
+
+        & .inform-item {
+            width: 230px;
+            position: relative;
+
+            & .znak {
+               position: absolute; 
+               top: 50px;
+               right: 50px;
+               align-items: center;
+
+               & .plus {
+                   cursor: pointer;
+               }
+
+               & .minus {
+                    cursor: pointer;
+                    margin-right: 10px;
+                    position: relative;
+                    top: -5px;
+                }
+            }
+
+            & .per {
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 14px;
+                line-height: 36px;
+                letter-spacing: 5.25px;
+                opacity: 0.75;
+            }
+        }
+
+        & .info_value {
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            opacity: 0.5;
+            transform: rotate(-90deg);
+            width: 200px;
+            height: 24px;
+            text-align: right;
+            position: absolute;
+            top: 80px;
+            left: -100px;
+        }
+
+        & .info-tittle {
+            display: inline-block;
+            margin-left: 20px;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 36px;
+            text-transform: uppercase;
+        }
+    }        
+    
+    & .flower {
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+    }       
+    
+    & .cocktail {
+        display: block;
+        position: absolute;
+        bottom: -250px;
+        right: 0;
+    }
+}

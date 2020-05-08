@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    color: $white;
+    background-color:#171919;
+
+    & a {
+        color: $white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 114%;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+
+    & h1 {
+        font-weight: 800;
+        font-size: 80px;
+        text-transform: uppercase;
+    }
+    
+}
+
+
+

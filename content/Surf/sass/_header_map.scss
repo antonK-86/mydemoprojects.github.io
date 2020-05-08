@@ -1,0 +1,109 @@
+.header_map {
+
+    position: relative;
+
+
+    & .path_3 {
+        position: absolute;
+        right: 250px;
+        top: 10px;
+    }
+
+    & .shape {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        opacity: 0.5;
+    }
+
+    & .oval_one, & .oval_two,
+    & .oval_three, & .oval_four, & .oval_five
+    {
+        position: absolute;
+        cursor: pointer;
+
+    }
+
+    & .oval_one {
+        right: 630px;
+        top: 130px;
+    }
+
+    & .oval_two {
+        right: 430px;
+        top: 240px;
+        transform: scale(2);
+    }
+
+    & .oval_three {
+        right: 340px;
+        top: 260px;
+    }
+
+    & .oval_four {
+        right: 280px;
+        top: 350px;
+    }
+
+    & .oval_five {
+        right: 280px;
+        top: 10px;
+        transform: scale(2);
+    }
+
+    & .activeOval {
+        transform: scale(2);
+    }
+
+    & span {
+        display: inline-block;
+        width: 160px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 119%;
+        opacity: 0.5;
+        text-align: right;
+    }
+
+    & .hdn_span_two {
+        display: none;
+        position: absolute;
+        right: 450px;
+        top: 235px;
+    }
+
+    & .hdn_span_one {
+        display: none;
+        position: absolute;
+        right: 650px;
+        top: 125px;
+    }
+
+   
+
+
+     .hdn_span_three {
+        display: none;
+        position: absolute;
+        right: 360px;
+        top: 255px;
+     }
+
+     .hdn_span_four {
+        display: none;
+        position: absolute;
+        right: 310px;
+        top: 340px;
+     } 
+     
+     & .active_span_shore {
+        display: inline-block;
+    }
+
+    & .hdn_span_five {
+        position: absolute;
+        right: 300px;
+        top: 5px;
+    }
+
+}

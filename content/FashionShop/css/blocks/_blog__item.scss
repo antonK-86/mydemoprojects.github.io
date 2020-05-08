@@ -1,0 +1,63 @@
+.blog__item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    & img {
+        display: block;
+    }
+
+    & .post {
+        width: 65%;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        & h4 {
+            font-size: 1.8rem;
+            font-family: $droid;
+            color: rgb(34, 34, 34);
+            line-height: 1.667; 
+            margin: 0;   
+        }
+
+        & p {
+            font-size: 1.5rem;
+            font-family: $muli;
+            color: rgb(137, 137, 137);
+            line-height: 1.667;
+            margin: 0;
+        }
+
+        & a {
+            display: flex;
+            color: rgb(34, 34, 34);
+            
+            & span {
+                font-size: 1.5rem;
+                font-family: $droid;
+                line-height: 1.2;
+               
+                &::after {
+                    content: '';
+                    display: inline-block;
+                    width: 5px;
+                    height: 5px;
+                    margin-left: 5px;
+                    border-right: 2px solid #ff6699;
+                    border-top: 2px solid #ff6699;
+                    transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                }
+            }
+        }    
+    }
+}
+
+  
+
+  

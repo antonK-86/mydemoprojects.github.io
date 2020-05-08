@@ -1,0 +1,23 @@
+footer {
+    max-width: 1440px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.footer {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1.05px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    
+    & span {
+        height: 14px;
+        width: 14px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+

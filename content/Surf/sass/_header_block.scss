@@ -1,0 +1,32 @@
+.header_block{
+    width: 100%;
+    height: 220px;
+    position: relative;
+    
+ & .logo_tittle {
+        font-weight: 800;
+        font-size: 200px;
+        text-transform: uppercase;
+        opacity: 0.02;
+        position: relative;
+        top: 0;
+        left: -50px;
+    }
+
+    & h1 {
+        margin-left: 200px;
+        display: inline;
+        position: relative;
+        top: -235px;
+        left: 50px;
+        &::after {
+            content: "";
+            position: absolute;
+            left: 100px;
+            width: 87px;
+            height: 1px;
+            background: #4AF6CD;
+        }
+    }
+
+}

@@ -1,0 +1,199 @@
+.shop {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+
+    & .info_product {
+        width: 550px;
+        padding-left: 60px;
+        padding-top: 120px;
+           
+            & .top_part {
+                font-size: 22px;
+                letter-spacing: 7.33px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+        
+                & .line {
+                    display: inline-block;
+                    width: 70px;
+                    height: 1px;
+                    background-color: $white;
+                    opacity: 0.5;
+                    text-align: right;
+                } 
+                
+                & span {
+                    margin-right: 20px;
+                    opacity: 0.5;
+                }
+            }
+
+            & .index {
+                font-weight: 800;
+                font-size: 40px;
+                margin-top: 10px;
+        
+                & .value {
+                    text-transform: uppercase;
+                    margin-right: 10px;
+                    padding-right: 10px;
+                }
+            }
+
+           & .button_link {
+                text-align: left;
+                width: 340px;
+                margin-top: 100px;
+                margin-left: 0;
+            }
+    }
+
+    & .product {
+        width: 750px;
+        display: flex;
+        justify-content: space-between;
+
+        & .extras_block {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            & h4 {
+                    display: block;
+                    font-weight: 800;
+                    font-size: 28px;
+                    line-height: 40px;
+                    /* identical to box height, or 143% */
+                    text-transform: uppercase;
+                }
+
+            & .extras {
+                display: flex;
+                justify-content: space-between; 
+                width: 340px;
+
+                & img {
+                    margin: 20px 0 20px 5px;
+                }
+
+                & p {
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: right;
+                    letter-spacing: 8px;
+                    text-transform: uppercase;
+                    opacity: 0.5;
+                }
+
+                & .cell {
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 40px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    opacity: 1;
+                    margin-top: 10px;
+                }
+
+                & .vida {
+
+                    & p {
+                        margin-top: 25px;
+                    }
+
+                    & .cell {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        } 
+    }
+
+    & .board {
+        position: relative;
+
+        & .p_one {
+            position: absolute;
+            top: 204px;
+            left: 178px;
+            width: 20px;
+            height: 20px;
+            transition: transform 0.2s linear;
+
+            &:hover {
+                transform: rotate(45deg);
+            }
+
+        }
+
+        & .p_two{
+            position: absolute;
+            top: 304px;
+            left: -6px;
+            width: 20px;
+            height: 20px;
+            transition: transform 0.2s linear;
+
+            &:hover {
+                transform: rotate(45deg);
+            }
+        }
+
+        & .p_three{
+            position: absolute;
+            bottom: 65px;
+            left: 52px;
+            width: 20px;
+            height: 20px;
+            transition: transform 0.2s linear;
+
+            &:hover {
+                transform: rotate(45deg);
+            }
+        }
+
+        & .mes_one, & .mes_two, & .mes_three {
+            display: flex;
+            justify-content: space-between;
+            width: 300px;
+        }
+
+        & .mes_one {
+            position: absolute;
+            top: 200px;
+            left: 205px;
+        }
+
+        & .mes_two {
+            position: absolute;
+            top: 300px;
+            left: 20px;
+        }
+
+        & .mes_three {
+            position: absolute;
+            bottom: 18px;
+            left: 80px;
+        }
+
+        & .mes_line {
+            width: 70px;
+            height: 1px;
+            background-color: #fff;
+            opacity: 0.5;
+            margin-top: 14px;
+        }
+
+        & .mes {
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 24px;
+            width: 200px;
+            text-transform: uppercase;
+        }
+
+    }
+    
+}

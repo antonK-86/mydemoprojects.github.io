@@ -1,0 +1,35 @@
+.button_link {
+    width: 340px;
+    margin: 220px auto 0;
+    text-align: center;
+
+    & a, & span {
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 36px;
+    }
+
+    & a {
+        margin-left: 15px;
+        padding: 15px;
+        background-color: #4AF6CD;
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 20px;
+            height: 1px;
+            display: inline-block;
+            background-color: white;
+            position: absolute;
+            left: -10px;
+            top: 37px;
+        }
+
+        & img {
+            position: relative;
+            top: -3px;
+        }
+    }
+}

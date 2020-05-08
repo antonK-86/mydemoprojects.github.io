@@ -1,0 +1,55 @@
+.location {
+    text-transform: uppercase;
+    z-index: 100;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+    & .top_part{
+        font-size: 22px;
+        letter-spacing: 7.33px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        & .line {
+            display: inline-block;
+            width: 70px;
+            height: 1px;
+            background-color: $white;
+            opacity: 0.5;
+            text-align: right;
+        } 
+        
+        & span {
+                margin-left: 30px;
+                opacity: 0.5;
+            }
+    }
+
+    & .land {
+        display: flex;
+        justify-content: flex-end;
+        font-weight: 800;
+        font-size: 40px;
+        margin-top: 10px;
+        text-align: center;
+
+        & .region {
+            margin-right: 10px;
+            padding-right: 10px;
+           // border-right: 1px solid rgba(255, 255, 255, 0.5);
+
+            &:after {
+                content: '';
+                display: inline-block;
+                margin-left: 22px;
+                height: 28px;
+                width: 1px;
+                background-color: rgba(255, 255, 255, 0.5);
+            }
+        }
+    }
+
+}

@@ -1,0 +1,47 @@
+.arrow_link {
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    top: 400px;
+    opacity: 0.5;
+    
+    & .l_arrow, & .r_arrow {
+        cursor: pointer;
+    }
+
+    & .l_arrow {
+        transition: transform 0.2s linear;
+
+        &:hover {
+            transform: translateX(-5px);
+        }
+    }
+
+    & .r_arrow {
+        transition: transform 0.2s linear;
+
+        &:hover {
+            transform: translateX(5px);
+        }
+    }
+
+    & img {
+        margin-left: 10px;
+    }
+}
+
+.header_block .arrow_link {
+    position: absolute;
+    top: 200px;
+}
+
+.map_block .arrow_link {
+    position: absolute;
+    top: 100%;
+}
+
+.header .arrow_link {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+}
